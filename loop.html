@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Loop</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var lang = ["HTML", "CSS", "Bootstrap", "PHP", "Java", "Android",
+            "Angular"];
+        var txt = "";
+        var i;
+        for (i = 0; i < lang.length; i++) {
+            txt += lang[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+
+
+
+    <p id="demo1"></p>
+    <script>
+        var txt = "";
+        var i;
+        for (i = 0; i <= 10; i++) {
+            txt += "Number is " + i + "<br>";
+
+        }
+        document.getElementById("demo").innerHTML = txt;
+
+    </script>
+
+
+
+
+    <p id="demo2"></p>
+    <script>
+        var txt = "";
+        var i = 1;
+        while (i < 10) {
+            txt += "<br>" + i;
+            i++;
+        }
+        document.getElementById("demo2").innerHTML = txt;
+
+    </script>
+
+
+
+
+    
+
+</body>
+
+</html>
